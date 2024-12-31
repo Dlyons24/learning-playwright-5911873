@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { LoginPage } from "../pages/login/loginPage";
+import { LoginPage } from "../../pages/login/loginPage";
 
 test("login without page object", async ({ page }) => {
   await page.goto("https://practicesoftwaretesting.com/");
